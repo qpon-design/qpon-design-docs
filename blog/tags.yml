@@ -1,0 +1,19 @@
+qpon:
+  label: Qpon
+  permalink: /qpon
+  description: Qpon tag description
+
+qpon-design:
+  label: Qpon Design
+  permalink: /qpon-design
+  description: Qpon Design tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description

@@ -1,0 +1,24 @@
+qpondesign:
+  name: qpondesign
+  title: Qpon Design
+  url: https://linkedin.com/in/qpon-indonesia
+  image_url: https://github.com/qpon-design.png
+  page: true
+  socials:
+    # x: qpon.indoneia
+    linkedin: pt-qpon-digital-indonesia
+    github: qpon-design
+
+dmf:
+  name: dmf
+  title: Product Designer
+  url: https://dae.ng
+  image_url: https://github.com/daengdoang.png
+  page: true
+    # customize the url of the author page at /blog/authors/<permalink>
+    #permalink: '/all-sebastien-lorber-articles'
+  # socials:
+    # x: sebastienlorber
+    # linkedin: sebastienlorber
+    # github: slorber
+    # newsletter: https://thisweekinreact.com
