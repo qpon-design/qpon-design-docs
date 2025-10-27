@@ -1,7 +1,7 @@
 ---
 slug: long-blog-post
 title: Long Blog Post
-authors: qpondesign
+authors: [qpondesign, dmf]
 tags: [hello, qpon-design]
 ---
 
