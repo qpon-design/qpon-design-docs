@@ -90,13 +90,17 @@ const config = {
           src: 'img/qpon-design.svg',
         },
         items: [
-          {
+         /** {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Getting Started',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+            label: 'Foundation',
+          },  */
+          {to: '/docs/foundations', label: 'Foundations', position: 'left'},
+          {to: '/docs/brand', label: 'Brand', position: 'left'},
+          {to: '/docs/system', label: 'Design System', position: 'left'},
+          {to: '/docs/localization', label: 'Localization', position: 'left'},
+          /**{to: '/blog', label: 'Blog', position: 'left'}, */
           {
             href: 'https://github.com/qpon-design/qpon-design-docs',
             label: 'GitHub',
@@ -121,6 +125,10 @@ const config = {
               {
                 label: 'Localization',
                 to: '/docs/localization',
+              },
+              {
+                label: 'Research',
+                to: '/docs/Research',
               },
             ],
           },
@@ -155,7 +163,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Qpon Design. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Qpon Design & Qpon User Growth team.`,
       },
       prism: {
         theme: prismThemes.github,
