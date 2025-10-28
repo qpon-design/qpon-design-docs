@@ -131,6 +131,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
+        hideOnScroll: true,
         title: 'Qpon Design',
         logo: {
           alt: 'Qpon Design Logo',
