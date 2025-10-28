@@ -37,10 +37,10 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en'], /* 'id', 'zh-Hans' */
   },
 
-  // 'id', 'zh-Hans'
+  
   presets: [
     [
       'classic',
@@ -133,19 +133,19 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Follow Qpon on:',
             items: [
               {
                 label: 'TikTok',
                 href: 'https://tiktok.com/@qpon.indonesia',
               },
               {
-                label: 'LinkedIn',
-                href: 'https://linkedin.com/in/qpon-indonesia',
-              },
-              {
                 label: 'Instagram',
                 href: 'https://instagram.com/qpon.indonesia',
+              },
+               {
+                label: 'LinkedIn',
+                href: 'https://linkedin.com/company/pt-qpon-digital-indonesia',
               },
             ],
           },
