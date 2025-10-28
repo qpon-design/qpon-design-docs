@@ -71,6 +71,10 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        docs: {
+              routeBasePath: '/', // This removes the /docs prefix
+              // ... other docs plugin options
+            },
       }),
     ],
   ],
@@ -139,10 +143,10 @@ const config = {
             position: 'left',
             label: 'Foundation',
           },  */
-          {to: '/docs/foundations', label: 'Foundations', position: 'left'},
-          {to: '/docs/brand', label: 'Brand', position: 'left'},
+          {to: '/foundations', label: 'Foundations', position: 'left'},
+          {to: '/brand', label: 'Brand', position: 'left'},
           // {to: '/docs/system', label: 'Design System', position: 'left'},
-          {to: '/docs/localization', label: 'Localization', position: 'left'},
+          {to: '/localization', label: 'Localization', position: 'left'},
           /**{to: '/blog', label: 'Blog', position: 'left'}, */
           {
             href: 'https://github.com/qpon-design/qpon-design-docs',
@@ -159,19 +163,19 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/getting-started',
+                to: '/getting-started',
               },
               {
                 label: 'Foundations',
-                to: '/docs/foundations',
+                to: '/foundations',
               },
               {
                 label: 'Localization',
-                to: '/docs/localization',
+                to: '/localization',
               },
               {
                 label: 'Research',
-                to: '/docs/research',
+                to: '/research',
               },
             ],
           },
