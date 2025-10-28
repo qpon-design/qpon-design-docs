@@ -151,7 +151,8 @@ const config = {
           /**{to: '/blog', label: 'Blog', position: 'left'}, */
           {
             href: 'https://github.com/qpon-design/qpon-design-docs',
-            label: 'GitHub',
+            // label: 'GitHub',
+            class: 'header-github-link',
             position: 'right',
           },
         ],
