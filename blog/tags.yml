@@ -17,3 +17,8 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+brand:
+  label: Brand
+  permalink: /brand
+  description: Brand tag description

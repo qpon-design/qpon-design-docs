@@ -86,7 +86,7 @@ const config = {
       id: 'support_us',
       content:
         'This docs already started on Oct 2025, visit <a target="_blank" rel="noopener noreferrer" href="https://qpon.id/about">About Qpon</a>',
-      backgroundColor: '#fafbfc',
+      backgroundColor: '#ffdd03',
       textColor: '#091E42',
       isCloseable: true,
     },

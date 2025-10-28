@@ -41,6 +41,8 @@
     background: var(--ifm-menu-link-sublist-icon) 50% / 1.25rem 1.25rem;
 }
 
+
+/* navbar */
 .header-github-link:hover {
   opacity: 0.6;
 }
