@@ -98,7 +98,7 @@ const config = {
           },  */
           {to: '/docs/foundations', label: 'Foundations', position: 'left'},
           {to: '/docs/brand', label: 'Brand', position: 'left'},
-          {to: '/docs/system', label: 'Design System', position: 'left'},
+          // {to: '/docs/system', label: 'Design System', position: 'left'},
           {to: '/docs/localization', label: 'Localization', position: 'left'},
           /**{to: '/blog', label: 'Blog', position: 'left'}, */
           {
@@ -128,7 +128,7 @@ const config = {
               },
               {
                 label: 'Research',
-                to: '/docs/Research',
+                to: '/docs/research',
               },
             ],
           },
