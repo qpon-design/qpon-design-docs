@@ -76,9 +76,16 @@ const config = {
   ],
 
   themeConfig:
-    
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
       ({
+      announcementBar: {
+      id: 'support_us',
+      content:
+        'This docs already started on Oct 2025, visit <a target="_blank" rel="noopener noreferrer" href="https://qpon.id/about">About Qpon</a>',
+      backgroundColor: '#fafbfc',
+      textColor: '#091E42',
+      isCloseable: true,
+    },
       algolia: {
         // The application ID provided by Algolia
         appId: 'JMMNE2CXA9',
