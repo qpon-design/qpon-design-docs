@@ -212,7 +212,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Qpon Design & Qpon User Growth team.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Qpon Design. We empower people through delightful, localized design — from Qpon, for everyone.`,
       },
       prism: {
         theme: prismThemes.github,
